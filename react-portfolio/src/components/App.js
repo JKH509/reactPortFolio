@@ -14,22 +14,24 @@ import Form from '../components/portfolio/FormValidation';
 import Calc from '../components/portfolio/week3/Week3Page';
 import Hello4 from '../components/portfolio/week4/Week4Page';
 import Hello5 from '../components/portfolio/week5/Week5Page';
+import BidProHome from '../components/portfolio/bidpro/home/BPhomePage';
 
 function App() {
     return (
 <div className="">
-            <Header />
+            <Header  />
             <Switch>
             <Route exact path="/" component={HomePage} />
            <Route path="/About" component={AboutPage} />
            <Route path="/Contact" component={ContactPage} />
            <Route exact path="/Portfolio" component={PortfolioPage} />
-           <Route  path="/Portfolio/BidPro" component={BidPro} />
+           <Route  path="/Portfolio/BidProPage" component={BidPro} />
            <Route path="/Portfolio/FormValidation" component={Form} />
            <Route path="/Portfolio/Calculator" component={Calc} />
            <Route path="/Portfolio/Grid" component={Grid} />
            <Route path="/Portfolio/SayHelloW4" component={Hello4} />
            <Route path="/Portfolio/SayHelloW5" component={Hello5} />
+           <Route path="/Portfolio/BidPro" component={BidProHome} />
            <Route path="/Goals" component={GoalsPage} />
             </Switch>
             <Footer />

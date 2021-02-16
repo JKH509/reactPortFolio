@@ -1,0 +1,63 @@
+.bg-bidPro {
+    background-color: #83a4c4;
+}
+
+.navbar {
+    padding: 0px !important;
+}
+
+.navbar-brand {
+    padding: 0px !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.main-top-padding {
+    margin-top: 95px;
+}
+
+td {
+    vertical-align: middle !important;
+  }
+  
+  .btn {
+    width: 150px;
+    
+}
+.btn-blue{
+    background-color: rgb(93, 132, 240);
+}
+.btn-primary{
+    background-color: rgb(131, 167, 233);
+    border: none;
+}
+/* th {
+    text-align: middle;
+} */
+/* .buttonsR{
+    width: 100px;
+} */
+.dropdown-item.active, .dropdown-item.active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #83a4c4;
+}
+
+.hidden {
+    display: none;
+}
+.flex-row {
+    width: calc(100% / 7);
+    text-align: center;
+    padding: 1px;
+}
+
+.flex-table {
+    display: flex;
+    flex-flow: row wrap;
+}
+.flex-table:nth-child(odd) .flex-row {
+    background-color: #83a4c4;
+}

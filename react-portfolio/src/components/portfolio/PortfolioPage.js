@@ -77,7 +77,7 @@ const PortfolioPage = () => {
     <div className="col">
         <div className="cards p-2 mb-2">
         <img className="p-2" src="/images/fluxWallet.png" alt="" style={{height:"168px", width:"170"}} />
-        <p className="mt-2">First Grid Assignment</p>
+        <p className="mt-2"><a href="/Portfolio/BidPro" >Bid Pro</a><br/>First Grid Assignment</p>
         </div>
     </div>
 </div>
