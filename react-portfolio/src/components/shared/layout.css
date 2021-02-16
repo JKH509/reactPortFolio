@@ -1,0 +1,323 @@
+.bg-light{
+    background-color:rgb(43, 82, 133) !important;
+}
+/* .seahawks{
+    background-color: rgb(44, 74, 241);
+} */
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, -.2), rgba(0, 0, 0, 2)), url(./images/comp.jpg) ;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: #382d20;
+    color: #f8f3dc;
+    text-align:center;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+   
+    width: 100%;
+    color: white;
+    text-align: center;
+  } */
+
+  .footer {
+    display: block;
+    width: 100%;
+
+    min-height: 70px;
+    padding-bottom: 0px;
+    /* color:#9C805f; */
+    left: 0;
+    text-align:center;
+    
+}
+.nav-link {
+    color: #1d1e1f;
+}
+.cards{
+    background-color: #2B5285;
+    border-radius: 8px;
+}
+legend {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+
+  }
+  fieldset {
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+  }
+  li {
+    list-style-type: none;
+}
+  
+  /* .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   } */
+   .section {
+    text-align: bottom;
+}
+.logo {
+    background-color: red;
+}
+/* .nav {
+    background-color: lightblue;
+} */
+/* main {
+    background-color:  lightyellow;
+} */
+/* footer {
+    background-color: lightgreen;
+} */
+
+
+
+.success2 {
+    background-color: greenyellow !important;
+}
+.bg-info {
+    background-color: aqua !important;
+}
+.ftLeft {
+    background-color: lime !important;
+}
+.bg-secondary {
+    background-color: gray !important;
+}
+.bg-danger {
+    background-color: fuchsia !important;
+}
+
+.span {
+    font-size: 70%;
+}
+/* h1 {
+    line-height: 2.0;
+    font-size: 22pt;
+    
+} */
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+   
+@media (max-width: 575px) {
+    .bg-primary { background-color:#006600 !important;
+       padding: 20px;
+}
+}
+    @media (min-width: 576px) and (max-width: 767px ) {
+        .bg-primary { background-color:#006633 !important;
+            padding: 30px;
+        }   
+    }
+        @media (min-width: 768px) and (max-width: 991px ) {
+        .bg-primary { background-color:#006699!important;
+            padding: 30px;
+        }   
+    }
+            @media (min-width: 992px) {
+            .bg-primary { background-color:#0066ff!important;
+                padding: 15px;
+            }   
+        }
+ @media (max-width: 575px) {
+    .bg-success { background-color:#009900 !important;
+        
+        padding: 80px !important;
+        
+        
+        }
+        }
+            @media (min-width: 576px) and (max-width: 767px ) {
+                .bg-success { background-color:#009933 !important;
+                    padding: 60px;
+                }   
+            }
+                @media (min-width: 768px) and (max-width: 991px ) {
+                    .bg-success { background-color:#009999!important;
+                        padding: 60px;
+                }   
+            }
+                    @media (min-width: 992px) {
+                        .bg-success { background-color:#0099ff!important;
+                            padding: 80px;
+                            margin-right: 20px !important;
+                            
+                            
+                            /* margin-right: 20px !important; */
+                            
+                    }   
+                }
+                
+                        
+@media (max-width: 575px) {
+    .success2 { background-color:#00ff00 !important;
+        padding: 40px;
+                            }   
+                        }
+ @media (min-width: 576px) and (max-width: 767px ) {
+    .success2 { background-color:#00ff33 !important;
+        max-width: 48%;
+        padding: 40px;
+                                }   
+                            }
+         @media (min-width: 768px) and (max-width: 991px ) {
+            .success2 { background-color:#00ff99!important;
+                padding: 40px;
+                max-width: 32%;
+                                }   
+                            }
+                 @media (min-width: 992px) {
+                    .success2 { background-color:#00ffff!important;
+                        /* padding: 40px; */
+                        padding-top: 40px;
+                        padding-bottom: 40px;
+                        padding-right: 0;
+                        padding-left: 0;
+                        max-width: 24%;
+                        /* margin-left: 0px !important; */
+                                    }   
+                                }
+                            
+ @media (max-width: 575px) {
+     .bg-info { background-color:#330000 !important;
+        padding: 40px;
+            }   
+         }
+                                   
+         @media (min-width: 576px) and (max-width: 767px ) {
+                .bg-info { background-color:#330033 !important;
+                    padding: 40px;
+                    max-width: 48%;
+                }   
+            }
+              @media (min-width: 768px) and (max-width: 991px ) {
+                    .bg-info { background-color:#330099!important;
+                        padding: 40px;
+                max-width: 32%;
+                                }   
+                         }
+                            @media (min-width: 992px) {
+                                .bg-info { background-color:#3300ff!important;
+                                    /* padding: 40px; */
+                                    padding-top: 40px;
+                                    padding-bottom: 40px;
+                                    padding-right: 0;
+                                    padding-left: 0;
+                                    max-width: 24%;
+                                    }   
+                                }
+@media (max-width: 575px) {
+    .ftLeft { background-color:#333300 !important;
+        padding: 40px;
+
+        /* max-width: 100%; */
+           }   
+        }
+        @media (min-width: 576px) and (max-width: 767px ) {
+            .ftLeft { background-color:#333333 !important;
+                padding: 40px;
+                    max-width: 48%;
+            }   
+        }
+          @media (min-width: 768px) and (max-width: 991px ) {
+            .ftLeft { background-color:#333399!important;
+                padding: 40px;
+                max-width: 32%;
+                            }   
+                     }
+                        @media (min-width: 992px) {
+                            .ftLeft { background-color:#3333ff!important;
+                                /* padding: 40px; */
+                                padding-top: 40px;
+                                padding-bottom: 40px;
+                                padding-right: 0;
+                                padding-left: 0;
+                                max-width: 24%;
+                                }   
+                            }
+@media (max-width: 575px) {
+    .bg-secondary{ background-color:#336600 !important;
+        padding: 40px;
+           }   
+        }
+        @media (min-width: 576px) and (max-width: 767px ) {
+            .bg-secondary { background-color:#336633 !important;
+                padding: 40px;
+                    max-width: 48%;
+            }   
+        }
+          @media (min-width: 768px) and (max-width: 991px ) {
+            .bg-secondary { background-color:#336699!important;
+                padding: 40px;
+                
+                            }   
+                     }
+                        @media (min-width: 992px) {
+                            .bg-secondary { background-color:#3366ff!important;
+                                /* padding: 40px; */
+                        padding-top: 40px;
+                        padding-bottom: 40px;
+                        padding-right: 0;
+                        padding-left: 0;
+                        max-width: 24%;
+                                }   
+                            }
+@media (max-width: 575px) {
+    .bg-danger { background-color:#663300 !important;
+        padding: 20px;
+           }   
+        }
+        @media (min-width: 576px) and (max-width: 767px ) {
+            .bg-danger  { background-color:#663333 !important;
+                padding: 20px;
+            }   
+        }
+          @media (min-width: 768px) and (max-width: 991px ) {
+            .bg-danger  { background-color:#663399!important;
+                padding: 20px;
+                            }   
+                     }
+                        @media (min-width: 992px) {
+                            .bg-danger  { background-color:#6633ff!important;
+                                padding: 20px;
+                                }   
+                            }
+
+                            td {
+                                vertical-align: middle !important;
+                                
+                              }
+                              .bpBackground{
+                                background-color: whitesmoke;
+                              }
+                              
+                              .btn {
+                                width: 150px;
+                                
+                            }
+                            .btn-blue{
+                                background-color: rgb(93, 132, 240);
+                            }
+                            .btn-primary{
+                                background-color: rgb(131, 167, 233);
+                                border: none;
+                            }
