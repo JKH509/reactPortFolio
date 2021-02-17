@@ -4,22 +4,23 @@ import kids from '../shared/images/kidsProgramming.jpg'
 
 const GoalsPage = () => {
     return (
-        <main className="container mb-5 ">
+        <main className="mainPortfolio  ">
+            <div className="container">
     <div className="mr-3 ml-3">
-        <div className="row mt-5">
+        <div className="row ">
             <div className="col text-center">
-                <h1>Dream Big</h1>
+                <h1 style={{fontSize:"68px", fontFamily:"cursive"}}>Dream Big!</h1>
             </div>
         </div>
 
     <div className="row  mt-5">
-        <div className="col-12 col-lg-6 cards">
+        <div className="col-12 col-lg-6 cards" >
             <h2>Chasing the dream!</h2>
-            <p>As you may have guessed by now, my overseas travels have left a huge impression on me
+            <p style={{textAlign:"left"}}>As you may have guessed by now, my overseas travels have left a huge impression on me
                 and changed my future goals. Rather than being stuck in a narrow mind frame, I now have
                 many goals I want to work towards.
             </p>
-            <p>A personal goal of mine is to learn how to surf long enough to actually ride some waves.
+            <p style={{textAlign:"left"}}>A personal goal of mine is to learn how to surf long enough to actually ride some waves.
                 I tried this in the Phillipines and had a blast although I couldn't stay on the board for more
                 than a few seconds. I realise I have lived a dull and unfulfilling life up to this point, so if
                 something catches my intrest I am going to try it. When it comes to hobbies I don't believe in failure.
@@ -37,15 +38,15 @@ const GoalsPage = () => {
         <div className="col-12 col-lg-6 mt-5">
             <img  src={kids} alt=""  style={{borderRadius: "8px", height:"250px", width:"450px"}}/>
         </div>
-        <div className="col-12 col-lg-6 cards mt-4" style={{overflow: "scroll", height: "300px"}}>
+        <div className="col-12 col-lg-6 cards mt-4" style={{overflow: "auto", height: "300px"}}>
             <h2 className="mt-3">Brightening the future!</h2>
-            <p>
+            <p style={{textAlign:"left"}}>
                 Something I have struggled with the most in my current Software Development Program, or programming in 
                 general is the lack of help or mentorship. Even the school tutor is a former student that doesn't have much
                 more experience than me so having guidance has been extremely hard to come by and the instructors don't
                 give much help after lectures.
             </p>
-            <p>
+            <p style={{textAlign:"left"}}>
                 I don't think many people understand you don't have to be a guiness to do software development but it does
                 take dedication and a lot of frustration to get there. Having been on both sides of the poverty scale I
                 understand and still feel what it's like to face the daily grind when you paychecks are smaller than your bills.
@@ -53,7 +54,7 @@ const GoalsPage = () => {
                 allowed them to take family vacations now sadly barely pays the bills. I want to do something to help the kids and 
                 willing adults of the future to do my part in preventing more poverty.
             </p>
-            <p>
+            <p style={{textAlign:"left"}}>
                 I would love to someday soon start a non-profit
                 that provides laptops to low income children and help them start learning web development in hopes that they
                 may be able to find a secure, well paying job when they become adults. Who knows, one of them might even totally
@@ -62,6 +63,7 @@ const GoalsPage = () => {
         </div>
         
     </div>
+</div>
 </div>
 </main>
     )

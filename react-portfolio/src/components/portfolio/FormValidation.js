@@ -6,6 +6,9 @@ const FormValidation = () => {
     return (
        
         <main className="container main-top-padding">
+
+<h1>Will be active soon!</h1>
+
           <form >
             <section
               
@@ -26,7 +29,7 @@ const FormValidation = () => {
                     type="number"
                     id="giftCardAmountInput"
                     name="giftCardAmountInput"
-                    
+                    className="form-control"
                     
                   />
                 </div>
@@ -48,7 +51,7 @@ const FormValidation = () => {
                     type="text"
                     id="recipentsFirstNameInput"
                     name="recipentsFirstNameInput"
-                   
+                    className="form-control"
                     
                   />
                   <label>First</label>
@@ -59,7 +62,7 @@ const FormValidation = () => {
                     type="text"
                     id="recipentsLastNameInput"
                     name="recipentsLastNameInput"
-                    
+                    className="form-control"
                    
                   />
                   <label>Last</label>
@@ -82,7 +85,7 @@ const FormValidation = () => {
                     type="text"
                     id="streetInput"
                     name="streetInput"
-                   
+                    className="form-control"
                   />
                   <label htmlFor="streetInput">Street Address</label>
                 </div>
@@ -93,7 +96,7 @@ const FormValidation = () => {
                   type="text"
                   id=" lineTwoInput"
                   name=" lineTwoInput"
-                  
+                  className="form-control"
                 />
                 <label htmlFor=" lineTwoInput">Address Line 2</label>
               </div>
@@ -104,7 +107,7 @@ const FormValidation = () => {
                     type="text"
                     id="cityInput"
                     name="cityInput"
-                    
+                    className="form-control"
                     
                   />
                   <label htmlFor="cityInput">City</label>
@@ -114,7 +117,7 @@ const FormValidation = () => {
                     type="text"
                     id="stateInput"
                     name="stateInput"
-                    
+                    className="form-control"
                    
                   />
                   <label htmlFor="stateInput">State / Province / Region</label>
@@ -126,7 +129,7 @@ const FormValidation = () => {
                     type="number"
                     id="zipInput"
                     name="zipInput"
-                    
+                    className="form-control"
                   />
                   <label htmlFor="zipInput">Zip / Postal Code</label>
                 </div>
@@ -134,10 +137,10 @@ const FormValidation = () => {
                   <select
                     id="countrySelect"
                     name="countrySelect"
-                   
+                    className="form-control"
                    
                   >
-                    <option selected></option>
+                    <option selected>Must Choose an option</option>
                     <option value="usa">USA</option>
                     <option value="canada">Canada</option>
                   </select>
@@ -162,7 +165,7 @@ const FormValidation = () => {
                     type="text"
                     id="billingFirstInput"
                     name="billingFirstInput"
-                    
+                    className="form-control"
                
                   />
                   <label htmlFor="billingFirstInput">First</label>
@@ -172,7 +175,7 @@ const FormValidation = () => {
                     type="text"
                     id="billingLastInput"
                     name="billingLastInput"
-                   
+                    className="form-control"
                   />
                   <label htmlFor="billingLastInput">Last</label>
                 </div>

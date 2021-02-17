@@ -9,6 +9,7 @@ import { FaHtml5, FaCss3 } from 'react-icons/fa';
 
 const HomePage = () => {
     return (
+        <main className="mainPortfolio">
 <div className="container mb-5 ">
 
 <section className=" text-center mt-5">
@@ -67,6 +68,7 @@ const HomePage = () => {
 </section>
 
 </div>
+</main>
 )};
 
 export default HomePage;

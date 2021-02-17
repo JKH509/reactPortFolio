@@ -3,8 +3,8 @@ import React from 'react';
 
 const Header = () => {
     return(
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="/">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light " style={{padding: "25px"}}>
+        <a className="navbar-brand ml-2 " href="/">
             <div><span style={{fontSize: "24px", textShadow: "3px 3px grey"}}>J K H</span></div>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"

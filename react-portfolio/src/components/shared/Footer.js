@@ -3,9 +3,10 @@ import React from 'react';
 
 const Footer = () => {
     return(
-<div className="row bg-light">
-<div className="col-12 d-flex justify-content-center">
-    <ul className="nav">
+       
+<div className="row bg-light justify-content-center text-center text-white" style={{backgroundColor:"#2B5285"}} >
+<div className="col   " style={{backgroundColor:"#2B5285"}}>
+    <ul className="nav justify-content-center">
         <li className="nav-item">
             <a className="nav-link active" href="/">Home</a>
         </li>
@@ -23,10 +24,11 @@ const Footer = () => {
         </li>
     </ul>
 </div>
-<div className="col-12 d-flex justify-content-center">
-    <p>James Halstead 2020, Software Development Student</p>
+<div className="col-12" style={{}}>
+    <p><small>James Halstead 2020, Software Development Student</small></p>
 </div>
 </div>
+
     )
 }
 export default Footer;

@@ -73,7 +73,7 @@ const SimpleMathCalculator = () => {
         
           <div className="container text-center justify-items-center">
             <div className="row text-center justify-content-center">
-              <div className="col-2">
+              <div className="col-4 col-sm-3 col-lg-2">
                 <label htmlFor="FirstNumber"></label>
                 <input
                   className="form-control"
@@ -86,7 +86,7 @@ const SimpleMathCalculator = () => {
                   placeholder="First Number"
                 />
               </div>
-              <div className="col-2 mt-4">
+              <div className="col-4 col-sm-3 col-lg-2 mt-4">
                 <select className="form-control" id="operation" name="operation" onChange={(key) => setOperation(key.target.value)} value={operation}>
                   
                   <option value="+" > Addition (+)</option>
@@ -95,7 +95,7 @@ const SimpleMathCalculator = () => {
                   <option value="/" >Division (/)</option>
                 </select>
               </div>
-              <div className="col-2">
+              <div className="col-4 col-sm-3 col-lg-2">
                 <label htmlFor="SecondNumber"></label>
                 <input
                   className="form-control"
